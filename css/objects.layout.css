@@ -8,21 +8,21 @@
 
 .o-layout {}
 
-    .o-layout__item {}
+.o-layout__item {}
 
 /* gutter modifiers, these affect o-layout__item too */
 
 .o-layout--gutter {}
 
-.o-layout--gutter > .o-layout__item {}
+.o-layout--gutter>.o-layout__item {}
 
 .o-layout--gutter-sm {}
 
-.o-layout--gutter-sm > .o-layout__item {}
+.o-layout--gutter-sm>.o-layout__item {}
 
 .o-layout--gutter-lg {}
 
-.o-layout--gutter-lg > .o-layout__item {}
+.o-layout--gutter-lg>.o-layout__item {}
 
 /* reverse horizontal row modifier */
 
